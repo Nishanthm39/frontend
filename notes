@@ -1,0 +1,3 @@
+git clone -c core.protectNTFS=false https://github.com/dineschandgr/mern_backend.git
+
+git clone -c core.protectNTFS=false https://github.com/dineschandgr/mern_frontend.git
