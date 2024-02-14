@@ -53,7 +53,7 @@ export default function Edit() {
    };
 
    // This will send a post request to update the data in the database.
-   await fetch(`http://localhost:?/record/${params.id}`, {
+   await fetch(`http://localhost:5050/record/${params.id}`, {
      method: "PATCH",
      body: JSON.stringify(editedPerson),
      headers: {
